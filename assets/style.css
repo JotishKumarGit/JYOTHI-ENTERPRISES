@@ -582,3 +582,42 @@ body {
     position: relative;
     z-index: 2;
 }
+
+/* background for bread crumb */
+/* bread crumb css */
+.breadcrumb-section {
+    position: relative;
+    height: 300px;
+    /* adjust height as needed */
+    background-image: url("./img/Detergent-Powder.jpg");
+    /* change your image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.breadcrumb-section .overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    /* dark opacity */
+}
+
+.page-title {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.breadcrumb {
+    background: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    color: #fff;
+}
