@@ -1,125 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JYOTHI ENTERPRISES - Premium Detergent Manufacturer</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/style.css">
-</head>
-
-<body>
-
-    <!-- Top Bar -->
-    <div class="top-bar">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <i class="fas fa-phone"></i> +91 7090206666 |
-                    <i class="fas fa-envelope"></i> hrsomashekar009@gmail.com
-                </div>
-                <div class="col-md-6 text-end">
-                    <i class="fas fa-clock"></i> Mon - Sat: 9:00 AM - 6:00 PM
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">JYOTHI ENTERPRISES</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa fa-home"></i> Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="about.html"><i class="fa fa-user"></i> About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="products.html"><i class="fa fa-box"></i> Products</a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="gallery.html"><i class="fa fa-image"></i> Gallery</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="assets/img/NJS_BROCHURE.pdf" target="_blank">
-                            <i class="fa fa-file"></i> BROCHURE
-                        </a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="blog.html"><i class="fa fa-blog"></i> Blog</a></li>
-                    <li class="nav-item"><a class="nav-link" href="contact.html"><i class="fa fa-envelope"></i>
-                            Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Breadcrumb Section -->
-    <section class="breadcrumb-section text-white d-flex align-items-center">
-        <div class="overlay"></div>
-
-        <div class="container text-center position-relative">
-            <div class="row justify-content-center">
-                <div class="col-12">
-                    <h1 class="page-title">Liquid Detergent</h1>
-
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb justify-content-center">
-                            <li class="breadcrumb-item">
-                                <a href="#" class="text-white">Home</a>
-                            </li>
-                            <li class="breadcrumb-item">
-                                <a href="#" class="text-white">Pages</a>
-                            </li>
-                            <li class="breadcrumb-item active text-white" aria-current="page">
-                                Liquid Detergent
-                            </li>
-                        </ol>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Product Section Start -->
-    <section class="container my-5">
-        <div class="row align-items-center">
-
-            <!-- Product Image -->
-            <div class="col-lg-6 col-md-6 col-12 mb-4 mb-md-0 text-center">
-                <img src="assets/img/Liquid_Detergent.jpg" alt="Liquid Detergent" class="img-fluid rounded shadow">
-            </div>
-
-            <!-- Product Details -->
-            <div class="col-lg-6 col-md-6 col-12">
-                <h2 class="mb-3">Liquid Detergent</h2>
-                <p class="text-muted">
-                    Our liquid detergent provides deep cleaning action while being gentle
-                    on clothes. It dissolves quickly and is ideal for both hand wash and
-                    washing machines.
-                </p>
-
-                <ul class="list-unstyled mb-4">
-                    <li>✔ Tough on stains</li>
-                    <li>✔ Gentle on fabrics</li>
-                    <li>✔ Fresh fragrance</li>
-                    <li>✔ Suitable for all washing machines</li>
-                </ul>
-
-                <!-- Enquiry Button (Updated as requested) -->
-                <button class="btn btn-primary px-4 py-2" data-bs-toggle="modal" data-bs-target="#enquiryModal">
-                    Enquiry Now
-                </button>
-            </div>
-
-        </div>
-    </section>
-    <!-- Product Section End -->
-
-    <!-- Footer -->
+  <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="row">
@@ -138,30 +17,37 @@
                 <div class="col-lg-2 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
                     <h5>Quick Links</h5>
                     <ul class="footer-links">
-                        <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
-                        <li><a href="#about"><i class="fas fa-chevron-right"></i> About Us</a></li>
-                        <li><a href="#products"><i class="fas fa-chevron-right"></i> Products</a></li>
-                        <li><a href="#gallery"><i class="fas fa-chevron-right"></i> Gallery</a></li>
-                        <li><a href="#blog"><i class="fas fa-chevron-right"></i> Blog</a></li>
-                        <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                        <li><a href="index.php"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="about.php"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                        <li><a href="products.php"><i class="fas fa-chevron-right"></i> Products</a></li>
+                        <li><a href="gallery.php"><i class="fas fa-chevron-right"></i> Gallery</a></li>
+                        <li><a href="blog.php"><i class="fas fa-chevron-right"></i> Blog</a></li>
+                        <li><a href="contact.php"><i class="fas fa-chevron-right"></i> Contact</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="300">
                     <h5>Our Products</h5>
                     <ul class="footer-links">
-                        <li><a href="#"><i class="fas fa-chevron-right"></i> Detergent Powder</a></li>
-                        <li><a href="#"><i class="fas fa-chevron-right"></i> Loose Detergent Powder</a></li>
-                        <li><a href="#"><i class="fas fa-chevron-right"></i> Liquid Detergent</a></li>
-                        <li><a href="#"><i class="fas fa-chevron-right"></i> Floor Cleaner</a></li>
-                        <li><a href="#"><i class="fas fa-chevron-right"></i> Hand Wash</a></li>
-                        <li><a href="#"><i class="fas fa-chevron-right"></i> Custom Products</a></li>
+                        <li><a href="Detergent-Powder.php"><i class="fas fa-chevron-right"></i> Detergent Powder</a>
+                        </li>
+                        <li><a href="Floor-Cleaner.php"><i class="fas fa-chevron-right"></i> Floor Cleaner</a></li>
+                        <li><a href="Liquid-Detergent.php"><i class="fas fa-chevron-right"></i> Liquid Detergent</a>
+                        </li>
+                        <li><a href="Hand-Wash.php"><i class="fas fa-chevron-right"></i> Hand Wash</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
                     <h5>Contact Info</h5>
                     <ul class="footer-links">
-                        <li><i class="fas fa-map-marker-alt"></i> Patalamma Temple Street<br>Bengaluru Urban,
+                        <li><i class="fas fa-map-marker-alt"></i> <strong> Office Address :</strong> <br> Patalamma
+                            Temple Street<br>Bengaluru Urban,
                             Karnataka<br>India - 560017</li>
+                        <li><i class="fas fa-map-marker-alt"></i> <strong> Production Unit :</strong> <br>Survey No
+                            110/2, Near <br>
+                            Outer Ring Road, B. Narayanapura <br>
+                            Village, Whitefield Road, <br>
+                            Dooravaninagar Post, <br>
+                            Bengaluru - 560016</li>
                         <li><i class="fas fa-phone"></i> +91 7090206666</li>
                         <li><i class="fas fa-phone"></i> +91 7338662605</li>
                         <li><i class="fas fa-envelope"></i> hrsomashekar009@gmail.com</li>
